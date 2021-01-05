@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceDJPal", "DanceDJPal\DanceDJPal.csproj", "{CF920BE0-6DCE-4FD2-9EF5-9E48650F2FEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceDJPal.Core", "DanceDJPal.Core\DanceDJPal.Core.csproj", "{08B7B7B2-6A57-415D-9D6D-C20B06671B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceDJPal.Test", "DanceDJPal.Test\DanceDJPal.Test.csproj", "{3F300241-F5AA-41C8-92B3-0C524B842409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF920BE0-6DCE-4FD2-9EF5-9E48650F2FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF920BE0-6DCE-4FD2-9EF5-9E48650F2FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF920BE0-6DCE-4FD2-9EF5-9E48650F2FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF920BE0-6DCE-4FD2-9EF5-9E48650F2FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B7B7B2-6A57-415D-9D6D-C20B06671B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B7B7B2-6A57-415D-9D6D-C20B06671B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B7B7B2-6A57-415D-9D6D-C20B06671B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B7B7B2-6A57-415D-9D6D-C20B06671B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F300241-F5AA-41C8-92B3-0C524B842409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F300241-F5AA-41C8-92B3-0C524B842409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F300241-F5AA-41C8-92B3-0C524B842409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F300241-F5AA-41C8-92B3-0C524B842409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C907275-DAEA-4613-B1A3-FD5EBAEE58AB}
+	EndGlobalSection
+EndGlobal
