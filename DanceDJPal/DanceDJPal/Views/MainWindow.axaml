@@ -1,22 +1,29 @@
 ﻿<Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="clr-namespace:DanceDJPal.ViewModels;assembly=DanceDJPal"
+        xmlns:v="clr-namespace:DanceDJPal.Views;assembly=DanceDJPal"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="DanceDJPal.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
-        Title="DanceDJPal">
+        Title="Dance DJ Pal">
 
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-
     
   <StackPanel>
-    <TextBlock Text="{Binding BPMText}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-    <Button Command="{Binding TapForBPMCommand}">Tap for BPM</Button>
-    <Button Command="{Binding TapForBPMCommand}">Reset</Button>
+    <DockPanel>
+      <Menu DockPanel.Dock="Top">
+        <MenuItem Header="_File">
+          <MenuItem Header="_Open Music Library..." Command="{Binding OpenMusicLibrary}"/>
+          <Separator/>
+          <MenuItem Header="_Exit" Command="{Binding ExitCommand}"/>
+        </MenuItem>
+      </Menu>
+    </DockPanel>
+    <v:BPMControl></v:BPMControl>
   </StackPanel>
 
 </Window>
